@@ -1,0 +1,98 @@
+<ion-header >
+  <ion-navbar [color]="isAndroid ? 'royal' : 'danger'">
+    <ion-title>咔嚓频道</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-slides pager #mySlider [options]="mySlideOptions">
+
+    <ion-slide>
+      <img src="./assets/img/card-amsterdam.png" alt="">
+    </ion-slide>
+
+    <ion-slide >
+      <img src="./assets/img/card-sf.png" alt="">
+    </ion-slide>
+
+    <ion-slide style="background-color: red">
+      <img src="./assets/img/card-madison.png" alt="">
+    </ion-slide>
+
+  </ion-slides>
+
+  <p class="announcement">咔嚓头条 <span>一瓶葡萄酒为什么是750ML？破解葡...</span> </p>
+
+  <div class="card-wrap">
+    <div class="left">
+      <ion-card>
+        <img src="http://ionicframework.com/dist/preview-app/www/assets/img/card-saopaolo.png"/>
+        <div class="card-title">一键选酒</div>
+        <div class="card-subtitle">1-clicks selecting</div>
+      </ion-card>
+    </div>
+    <div class="right">
+      <ion-card class="top">
+        <img src="http://ionicframework.com/dist/preview-app/www/assets/img/card-saopaolo.png"/>
+        <div class="card-title">今日醉文</div>
+        <div class="card-subtitle">Daily Essay</div>
+      </ion-card>
+      <ion-card class="left">
+        <img src="http://ionicframework.com/dist/preview-app/www/assets/img/card-saopaolo.png"/>
+        <div class="card-title">白菜价</div>
+        <div class="card-subtitle">Good Bargin</div>
+      </ion-card>
+      <ion-card class="right">
+        <img src="http://ionicframework.com/dist/preview-app/www/assets/img/card-saopaolo.png"/>
+        <div class="card-title">名酒名庄</div>
+        <div class="card-subtitle">Fine Wines</div>
+      </ion-card>
+    </div>
+  </div>
+
+  <p class="list-title">——上新酒单——</p>
+
+  <div class="datily-list">
+    <img src="./assets/img/QQ20170105-0.png" alt="">
+    <div class="right">
+        <h6>德国 莫泽尔 雷司令 半甜白葡萄酒</h6>
+        <p><span class="super">超级爆款</span> <span class="saly">暂售磐|￥35</span></p>
+        <p class="good">
+          11:40 | 100%的人觉得值
+        </p>
+    </div>
+  </div>
+
+  <div class="datily-list">
+    <img src="./assets/img/QQ20170105-0.png" alt="">
+    <div class="right">
+      <h6>德国 莫泽尔 雷司令 半甜白葡萄酒</h6>
+      <p><span class="super">超级爆款</span> <span class="saly">暂售磐|￥35</span></p>
+      <p class="good">
+        11:40 | 100%的人觉得值
+      </p>
+    </div>
+  </div>
+
+  <div class="datily-list">
+    <img src="./assets/img/QQ20170105-0.png" alt="">
+    <div class="right">
+      <h6>德国 莫泽尔 雷司令 半甜白葡萄酒</h6>
+      <p><span class="super">超级爆款</span> <span class="saly">暂售磐|￥35</span></p>
+      <p class="good">
+        11:40 | 100%的人觉得值
+      </p>
+    </div>
+  </div>
+
+  <div class="datily-list">
+    <img src="./assets/img/QQ20170105-0.png" alt="">
+    <div class="right">
+      <h6>德国 莫泽尔 雷司令 半甜白葡萄酒</h6>
+      <p><span class="super">超级爆款</span> <span class="saly">暂售磐|￥35</span></p>
+      <p class="good">
+        11:40 | 100%的人觉得值
+      </p>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,60 @@
+page-about {
+  .content{
+    background: #f5f3f0;
+    .container-text{
+      overflow: hidden;
+      padding:10px 10px;
+      background: #fff;
+      height: auto;
+      .left{
+        width: 20%;
+        float: left;
+        img{
+          height: 130px;
+        }
+      }
+      .right{
+        position: relative;
+        overflow: hidden;
+        float: left;
+        width: 78%;
+        margin-left: 2%;
+        a{
+          color: #000;
+          font-size: 18px;
+        }
+        p{
+          margin-top: 70px;
+          color: #b5b5b5;
+        }
+      }
+      .clear{
+        clear: both;
+      }
+      .time{
+        line-height: 1.5;
+        margin:4px 0px;
+        color: #b5b5b5;
+        span{
+          float: right;
+        }
+      }
+    }
+
+
+  }
+  .top{
+    padding:0 10px;
+    span{
+      color: #a5a4a4;
+    }
+    span:nth-last-child(1){
+      float: right;
+    }
+  }
+
+  .more{
+    text-align: center;
+    color: #a5a4a4;
+  }
+}
